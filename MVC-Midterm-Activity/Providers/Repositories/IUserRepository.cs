@@ -1,4 +1,5 @@
-﻿using MVC_Midterm_Activity.Models;
+﻿using MVC_Midterm_Activity.Data;
+using MVC_Midterm_Activity.Models;
 
 namespace MVC_Midterm_Activity.Providers.Repositories
 {
