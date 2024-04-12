@@ -2,7 +2,7 @@
 
 namespace MVC_Midterm_Activity.Models
 {
-    public class Account
+    public class AccountUser
     {
         [Key]
         public Guid Id { get; set; }

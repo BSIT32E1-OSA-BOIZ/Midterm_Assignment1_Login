@@ -4,8 +4,10 @@ namespace MVC_Midterm_Activity.Providers.Repositories
 {
     public interface IUserRepository
     {
-        //...
+        AccountUser Register(AccountUser user);
+        AccountUser Validate(AccountUser user);
     }
+
 
     public class UserRepository : IUserRepository
     {
@@ -14,6 +16,16 @@ namespace MVC_Midterm_Activity.Providers.Repositories
         public UserRepository(AccountsDbContext db) 
         { 
             _db = db;
+        }
+
+        public AccountUser Register(AccountUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public AccountUser Validate(AccountUser user)
+        {
+            throw new NotImplementedException();
         }
 
         //...
