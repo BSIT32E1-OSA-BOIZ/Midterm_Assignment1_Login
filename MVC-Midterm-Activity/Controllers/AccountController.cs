@@ -9,7 +9,7 @@ namespace MVC_Midterm_Activity.Controllers
         {
             return View();
         }
-        public ActionResult Verify(Account acc)
+        public ActionResult Verify(AccountUser acc)
         {
             return View();
         }

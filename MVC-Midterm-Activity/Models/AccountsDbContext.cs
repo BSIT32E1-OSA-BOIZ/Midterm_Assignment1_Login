@@ -8,6 +8,6 @@ namespace MVC_Midterm_Activity.Models
         { 
         }
 
-        public DbSet<Account> Accounts { get; set;}
+        public DbSet<AccountUser> Accounts { get; set;}
     }
 }
