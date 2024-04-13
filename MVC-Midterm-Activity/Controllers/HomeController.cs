@@ -13,7 +13,12 @@ namespace MVC_Midterm_Activity.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Title()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }
