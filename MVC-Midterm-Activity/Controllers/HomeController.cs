@@ -4,7 +4,12 @@ using System.Diagnostics;
 
 namespace MVC_Midterm_Activity.Controllers
 {
-    public class HomeController : Controller
+	//ito changes ko
+	[ApiController]
+	[Route("api/[controller]")]
+	[Route("test")]
+	public class HomeController : Controller
+
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -28,5 +33,11 @@ namespace MVC_Midterm_Activity.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+
+        //ito changes ko
+		public string Index()
+		{
+			return "sucess!";
+		}
+	}
 }

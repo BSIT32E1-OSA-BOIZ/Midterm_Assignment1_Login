@@ -36,7 +36,15 @@
       "ConnectionStrings": {
         "onionDataConnection": "DataSource=onionData.db",
         "onionAuthConnection": "DataSource=onionAuth.db"
+      },
+      //ito changes ko
+      "IIS Express": {
+        "commandName": "IISExpress",
+        "launchBrowser": true,
+        "launchUrl": "api/home/test",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
       }
     }
-  }
 }
